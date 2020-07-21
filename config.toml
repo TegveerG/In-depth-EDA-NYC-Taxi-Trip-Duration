@@ -1,0 +1,62 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "econmemes"
+theme = "gohugo-theme-ananke"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 12
+googleAnalytics = ""
+enableRobotsTXT = true
+
+
+[permalinks]
+    post = ":month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    
+[[menu.main]]
+    name = "Data"
+    url = "/data/"
+
+[[menu.main]]
+    name = "Big Picture"
+    url = "/big_picture/"
+    
+[[menu.main]]
+    name = "EDA"
+    url = "/eda/"
+
+
+
+[params]
+    description = "A website built through Hugo and blogdown."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+    facebook = ""
+    twitter = ""
+    instagram = ""
+    youtube = ""
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    mastodon = ""
+    # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+    background_color_class = "bg-black"
+    featured_image = "/images/bg1.png"
+    recent_posts_number = 3
+
