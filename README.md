@@ -21,6 +21,8 @@ The final output shall look like this:
 
 <img src="demo.png" alt="workflow" width="70%">
 
+Feel free to modify the main.java file by playing around with different values of the independent variables!
+
 Sources:
 
 https://www.kaggle.com/nitin194/nyc-taxi-trip-duration-prediction/notebook 
