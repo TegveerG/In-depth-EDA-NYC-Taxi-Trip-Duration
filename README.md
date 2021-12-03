@@ -8,6 +8,19 @@ Gaining insights from maps always intrigues me and, hence, I used the first 1000
 
 For model building, I wanted to play around with the lauded H2O AutoML workflow. After cleaning the data and splitting it to a 90-10 train-test split, I put H2O at work. I purposely excluded the "Stacked Ensemble" to, firstly, expedite the training process and, secondly, to obtain individual error figures for the other supervised ML algorithms H2O employs, including Gradient Boosting Machine, XGBoost, Distributed Random Forest, and Generalized Linear Model. The best method with lowest RMSE (Root Mean Squared Error) out of the other 9 methods was the fourth model of the Gradient Boosting Machine method. H2O also helps us understand the most important variables that contibuted in model explanation and, in our case, it was distance, speed, pickup longitude, and dropoff longitude in descending order.
 
+To run the project, simply clone the repository and then open a new window in your terminal. Upon opening the terminal, set the current directory to the cloned folder's path and then enter the following two commands:
+
+```bash
+javac -cp h2o-genmodel.jar -J-Xms2g -J-XX:MaxPermSize=128m main.java
+```
+```bash
+java -cp .:h2o-genmodel.jar main
+```
+
+The final output shall look like this:
+
+<img src="demo.png" alt="workflow" width="70%">
+
 Sources:
 
 https://www.kaggle.com/nitin194/nyc-taxi-trip-duration-prediction/notebook 
