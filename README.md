@@ -39,3 +39,5 @@ https://www1.nyc.gov/assets/tlc/downloads/pdf/driver_education_study_guide.pdf (
 
 https://www1.nyc.gov/site/tlc/passengers/passenger-frequently-asked-questions.page 
 We shall shuffle our dataset first and then use the first 1000 observations for the convenience of plotting and visualization. Note that the green markers with a label of the play icon denote pick up locations and red markers with a label of the stop icon denote dropoff locations.
+
+https://docs.h2o.ai/h2o/latest-stable/h2o-docs/mojo-quickstart.html
