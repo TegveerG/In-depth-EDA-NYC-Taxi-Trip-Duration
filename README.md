@@ -35,7 +35,7 @@ https://www.tripadvisor.in/ShowTopic-g60763-i5-k6194060-Taxis_from_times_square_
 
 https://wazeopedia.waze.com/wiki/USA/New_York/Speed_limits 
 
-https://www1.nyc.gov/assets/tlc/downloads/pdf/driver_education_study_guide.pdf (very important resource with concern to our project) 
+https://www1.nyc.gov/assets/tlc/downloads/pdf/driver_education_study_guide.pdf (very important resource with concern to our project. This document specifies speed limits in NYC and on NYC highways, useful to detect outliers in our dataset. It also delineates major streets and highways of all boroughs, which gives the reader an intuitive overview of pick up and drop off locations visualized in our project.) 
 
 https://www1.nyc.gov/site/tlc/passengers/passenger-frequently-asked-questions.page 
 We shall shuffle our dataset first and then use the first 1000 observations for the convenience of plotting and visualization. Note that the green markers with a label of the play icon denote pick up locations and red markers with a label of the stop icon denote dropoff locations.
